@@ -11,9 +11,9 @@ The solution is a lifestyle advices system which suggests a user a certain lifes
 * The model trained on the transaction data learns to predict the categories in which a user is most likely to make transaction in the following months. 
 * The model bases its predictions both on transaction-based data (`merchant_type`, `transaction_type_desc`, `category`, `financial_account_type_cd`, `day` (of month), `weekday`) and user profile information (`gender_cd`, `age`, `marital_status_desc`, `children_cnt`, `region_flg`)
 * The predicted probability distribution over can be used to trigger lifestyle advices to a user and monitor the performance of a user (if he/she follows advices or not)
-* Over the time, with new transactions, the system may update the user profile and issue new advices to a user.
+* Over the time, with new transactions, the system may update the user profile and issue new advices to the user.
 
-The business side of the solution is shortly presented in the [video]().
+The business side of the solution is shortly presented in the [video](https://youtu.be/LjEsjwgG4ps).
 
 ## Files
 * [baseline_improved.ipynb](baseline_improved.ipynb)
@@ -23,6 +23,10 @@ The business side of the solution is shortly presented in the [video]().
 * [demo.ipynb](demo.ipynb)
   * Demonstration of how advices work.
   * Demo limitation: precomputed category recommendations for users. In the real system, the model accepts user transaction history and issues advice recommnedations directly.
+* [category_scores.csv](category_scores.csv)
+  * Precomputed with a trained model category recommendations for each user, used in the demo
+* [category_mappings.json](category_mappings.json)
+  * Dictionary map between categories and ids
   
 ## Baseline improvements
 * Fixed bug with mappings (`<UNK>` token index)
