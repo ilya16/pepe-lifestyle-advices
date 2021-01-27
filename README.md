@@ -2,7 +2,7 @@
 
 > Solution produced during "Advice Hackathon" by Tinkoff as part of the "Hack Lab" course in Skotech, September 18-20, 2020
 >
-> Team PEPEtoners: [Ilya Borovik](https://github.com/ilya16), [Vladislav Kniazev](https://github.com/Vladoskn), [Vanessa Skliarova](https://github.com/Vanessik), [Bulat Khabibullin](https://github.com/MrWag2), and [Zakhar Pichugin](https://github.com/zakharpichugin)
+> Team PEPEtoners: [Ilya Borovik](https://github.com/ilya16), [Vladislav Kniazev](https://github.com/Vladoskn), [Vanessa Skliarova](https://github.com/Vanessik), [Bulat Khabibullin](https://github.com/Bulichek), and [Zakhar Pichugin](https://github.com/zakharpichugin)
 
 ## Solution
 
